@@ -24,6 +24,6 @@ const config = {
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
   YTDL_NO_UPDATE: process.env.YTDL_NO_UPDATE !== undefined ? process.env.YTDL_NO_UPDATE === 'true' : true,
 };
-
+ HANDLERS: process.env.PREFIX || ".",
 
 module.exports = config;
